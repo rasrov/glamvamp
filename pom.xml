@@ -17,7 +17,8 @@
 
     <modules>
         <module>application</module>
-    </modules>
+		<module>domain</module>
+	</modules>
 
 	<properties>
 		<java.version>21</java.version>
@@ -28,6 +29,11 @@
 			<dependency>
 				<groupId>${project.groupId}</groupId>
 				<artifactId>application</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>${project.groupId}</groupId>
+				<artifactId>domain</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 		</dependencies>
